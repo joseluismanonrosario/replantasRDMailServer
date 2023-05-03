@@ -1,0 +1,30 @@
+{
+  "name": "replantasrdmailserver",
+  "version": "1.0.0",
+  "description": "Servidor de correos para la pagina de RePlantasRD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseluismanonrosario/replantasRDMailServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseluismanonrosario/replantasRDMailServer/issues"
+  },
+  "homepage": "https://github.com/joseluismanonrosario/replantasRDMailServer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mailgun.js": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
